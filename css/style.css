@@ -4605,14 +4605,14 @@ Author URI: http://www.ab-themes.com
 
 	figure.effect-romeo:hover figcaption::before {
 		opacity: 0.5;
-		-webkit-transform: translate3d(-50%,-50%,0) rotate(45deg);
-		transform: translate3d(-50%,-50%,0) rotate(45deg);
+		-webkit-transform: translate3d(-50%,-50%,0) rotate(90deg);
+		transform: translate3d(-50%,-50%,0) rotate(90deg);
 	}
 
 	figure.effect-romeo:hover figcaption::after {
 		opacity: 0.5;
-		-webkit-transform: translate3d(-50%,-50%,0) rotate(-45deg);
-		transform: translate3d(-50%,-50%,0) rotate(-45deg);
+		-webkit-transform: translate3d(-50%,-50%,0) rotate(-90deg);
+		transform: translate3d(-50%,-50%,0) rotate(-90deg);
 	}
 
 	figure.effect-romeo h4,
