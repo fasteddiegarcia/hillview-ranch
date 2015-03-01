@@ -1,0 +1,34 @@
+nav > ul > li a {
+	font-size: 18px;
+	font-weight: 800; 
+}
+
+#contact h4 {
+	font-size: 22px;
+	line-height: 27px;
+}
+
+.revel_section_dd header p {
+	font-size: 22px;
+	color: #999;
+	font-weight: 400;
+	margin-bottom: 60px;
+}
+
+.revel_team_member .revel_team_member_name {
+	font-size: 24px;
+	margin-bottom: 5px;
+}
+
+.revel_team_member .revel_team_member_position {
+	font-size: 20px;
+}
+
+input.revelcf-text, textarea.revelcf-textarea  {
+	font-size: 22px;
+	color: #000;
+}
+
+.ab_latest_portfolio figure p {
+	font-size: 100%;
+}
