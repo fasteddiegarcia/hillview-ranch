@@ -32,3 +32,12 @@ input.revelcf-text, textarea.revelcf-textarea  {
 .ab_latest_portfolio figure p {
 	font-size: 100%;
 }
+
+.tp-caption {
+	font-size: 30px;
+	font-weight: 800;
+}
+
+.tp-captionrevelance-big {
+	font-size: 600px;
+}
