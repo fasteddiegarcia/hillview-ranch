@@ -1,6 +1,7 @@
 nav > ul > li a {
-	font-size: 18px;
-	font-weight: 800; 
+	font-size: 20px;
+	font-weight: 800;
+	text-shadow: 1px 3px 1px #888;
 }
 
 #contact h4 {
@@ -41,3 +42,8 @@ input.revelcf-text, textarea.revelcf-textarea  {
 .tp-captionrevelance-big {
 	font-size: 600px;
 }
+
+#abdev_main_header {
+	padding: 10px;
+}
+
