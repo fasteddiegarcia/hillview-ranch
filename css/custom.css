@@ -47,3 +47,54 @@ input.revelcf-text, textarea.revelcf-textarea  {
 	padding: 10px;
 }
 
+.revel_section_dd header h3:after{
+	display: block;
+	content: "";
+	height: 36px;
+	width: 36px;
+	position: absolute;
+	bottom: -18px;
+	left: 50%;
+	margin-left: -18px;
+	color: #e42382;
+	font-family: '';
+	font-size: 18px;
+	content: "";
+}
+
+.revel_section_dd header p{
+	font-family: 'Open Sans';
+	font-weight: 300;
+	font-size: 18px;
+	margin-bottom: 85px;
+	text-transform: uppercase;
+	color: #676767;
+	line-height: 24px;
+}
+
+
+
+
+/*From here down are the suggestions from Erik*/
+#main_menu {
+	margin: auto;
+width: 1450px;
+float: none;
+}
+#main_menu li a {
+font-size: 30px; 
+} /*This makes the font bigger, but space in nav bar is limited, need to enlarge space*/
+
+.revel_section_dd header h3{
+    position: initial;
+    margin-bottom: 60px;
+    padding-bottom: 60px;
+} /*This doesn't affect the jumbotron at all, can't find somedthing that does*/
+
+.revel_team_member > p {
+margin-bottom: 19px;
+font-size: 17px;
+color: #000;
+}
+
+
