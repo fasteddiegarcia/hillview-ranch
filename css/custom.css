@@ -81,6 +81,7 @@ input.revelcf-text, textarea.revelcf-textarea  {
 	width: 1450px;
 	float: none;
 }
+
 #main_menu li a {
 	font-size: 25px; 
 } /*This makes the font bigger, but space in nav bar is limited, need to enlarge space*/
@@ -123,11 +124,18 @@ input.revelcf-text, textarea.revelcf-textarea  {
 }
 
 .revel_section_dd.pattern_overlayed a,
-	.revel_section_dd.color_overlayed a{
-		color: #c11a0d;
-	}
+.revel_section_dd.color_overlayed a{
+	color: #c11a0d;
+}
 
 .revel-tabs .ui-tabs-nav li:hover a {
-		/*color: #333;*/
-		color:#c11a0d;
-	}	
+	/*color: #333;*/
+	color:#c11a0d;
+}
+
+
+/* Trying to move jumbotron up off the deer's eyes */
+"tp-caption revelance-big tp-fade tp-resizeme rs-parallaxlevel-10" {
+	margin-top: 100px;
+}		
+
