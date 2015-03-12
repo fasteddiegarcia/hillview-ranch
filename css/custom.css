@@ -72,9 +72,6 @@ input.revelcf-text, textarea.revelcf-textarea  {
 	line-height: 24px;
 }
 
-
-
-
 /*From here down are the suggestions from Erik*/
 #main_menu {
 	margin: auto;
@@ -84,6 +81,7 @@ input.revelcf-text, textarea.revelcf-textarea  {
 
 #main_menu li a {
 	font-size: 25px; 
+    color: #c11a0d;
 } /*This makes the font bigger, but space in nav bar is limited, need to enlarge space*/
 
 .revel_section_dd header h3{
@@ -111,30 +109,17 @@ input.revelcf-text, textarea.revelcf-textarea  {
 	padding: 0 0;
 }
 
-.revel_team_member .revel_team_member_position {
-	color: #c11a0d;
-}
-
-.revel_blockquote p small {
-	color: #c11a0d;
-}
-
-.revelcf-submit {
-	color: #c11a0d;
-}
-
+.revel_team_member .revel_team_member_position, 
+.revel_blockquote p small, .revelcf-submit,
 .revel_section_dd.pattern_overlayed a,
-.revel_section_dd.color_overlayed a{
-	color: #c11a0d;
+.revel_section_dd.color_overlayed a, 
+.revel-tabs .ui-tabs-nav li:hover a, 
+.menu_over_slider#abdev_main_header nav > ul > li a{
+    color: #c11a0d;
 }
-
-.revel-tabs .ui-tabs-nav li:hover a {
-	/*color: #333;*/
-	color:#c11a0d;
-}
-
 
 /* Trying to move jumbotron up off the deer's eyes */
+/*Why is it on quotes?*/
 "tp-caption revelance-big tp-fade tp-resizeme rs-parallaxlevel-10" {
 	margin-top: 100px;
 }		
