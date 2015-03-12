@@ -1,0 +1,3 @@
+var Cow = 
+
+var emptyObj = {};
