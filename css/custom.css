@@ -45,6 +45,17 @@ input.revelcf-text, textarea.revelcf-textarea  {
 
 #abdev_main_header {
 	padding: 10px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#abdev_main_header li {
+	display: inline;
+}
+
+#abdev_main_header a {
+	display: inline-block;
+	padding: 10px;
 }
 
 .revel_section_dd header h3:after{
@@ -114,13 +125,21 @@ input.revelcf-text, textarea.revelcf-textarea  {
 .revel_section_dd.pattern_overlayed a,
 .revel_section_dd.color_overlayed a, 
 .revel-tabs .ui-tabs-nav li:hover a, 
-.menu_over_slider#abdev_main_header nav > ul > li a{
+.menu_over_slider#abdev_main_header nav > ul > li a:hover{
     color: #c11a0d;
 }
+.menu_over_slider#abdev_main_header nav > ul > li a{
+	color: #fff;
+}
 
-/* Trying to move jumbotron up off the deer's eyes */
-/*Why is it on quotes?*/
-"tp-caption revelance-big tp-fade tp-resizeme rs-parallaxlevel-10" {
-	margin-top: 100px;
-}		
+.tp-parallax-container{
+	top: 80px;
+}
+
+
+.portfolio_item figcaption h4 {
+	word-spacing: 5px;
+}
+
+
 

@@ -124,11 +124,11 @@ Author URI: http://www.ab-themes.com
 	input[type="text"],input[type="password"],input[type="email"], textarea {
 		-webkit-appearance: none;
 		width: 100%;
-		font-family: inherit; 
+		font-family: inherit;
 		-webkit-box-sizing: border-box;
 		-moz-box-sizing: border-box;
 		box-sizing: border-box;
-		border: 1px solid #d9d9d9;
+		border: 1px solid #000000;
 		outline: none;
 		font-size: 14px;
 	}
@@ -193,7 +193,7 @@ Author URI: http://www.ab-themes.com
 		padding-bottom: 43px;
 	}
 
-	.revel_section_dd header h3:before{
+	/*.revel_section_dd header h3:before{
 		display: block;
 		content: "";
 		height: 1px;
@@ -219,7 +219,8 @@ Author URI: http://www.ab-themes.com
 		font-family: 'entypo';
 		font-size: 18px;
 		content: "\e662";
-	}
+	}*/
+	
 
 	.revel_section_dd header p{
 		font-family: 'Open Sans';
