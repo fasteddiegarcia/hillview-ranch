@@ -1,3 +1,0 @@
-var Cow = 
-
-var emptyObj = {};
